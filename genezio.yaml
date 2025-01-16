@@ -1,0 +1,12 @@
+frontend:
+    path: laravel-json-api
+    publish: dist
+    scripts:
+        build:
+            - npm run build
+        deploy:
+            - npm install
+    subdomain: green-statistical-gorilla
+name: green-statistical-gorilla
+region: us-east-1
+yamlVersion: 2
